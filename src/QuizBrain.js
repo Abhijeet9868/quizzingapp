@@ -40,7 +40,7 @@ const QuizBrain = ({ Ques,ResetBtn }) => {
     //! states 
     const [Currentindex, setCurrenntindex] = useState(0);
     const [btnstate, setbtnstate] = useState('idle');
-    const [Scorelist, setScorelist] = useState([]);
+    // const [Scorelist, setScorelist] = useState([]);
     const [ScorePp, setScorePp] = useState([]);
     const [Q_A, setQ_A] = useState({ Question: null, Ans: null });
 
@@ -58,12 +58,12 @@ const QuizBrain = ({ Ques,ResetBtn }) => {
 
     function updataScore(btnValue, value) {
         if (btnValue) {
-            setScorelist(Scorelist => [...Scorelist, "True"]);
+            // setScorelist(Scorelist => [...Scorelist, "True"]);
             setScorePp(ScorePp => [...ScorePp, {index:Currentindex , usrAns:Ques[Currentindex].correct_answer, checked:"🤩"}])
 
         }
         else {
-            setScorelist(Scorelist => [...Scorelist, "False"]);
+            // setScorelist(Scorelist => [...Scorelist, "False"]);
             setScorePp(ScorePp => [...ScorePp, {index:Currentindex , usrAns:Ques[Currentindex].correct_answer, checked:"❌"}])
 
         }

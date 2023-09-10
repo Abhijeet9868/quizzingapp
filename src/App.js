@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import QuizBrain from './QuizBrain';
-import { FaYoutube, FaGithub, FaInstagram } from 'react-icons/fa';
+// import { FaYoutube, FaGithub, FaInstagram } from 'react-icons/fa';
 
 //! Root app 
 function App() {
@@ -10,7 +10,7 @@ function App() {
   const [QuesJson, setQuesJson] = useState(null);
   const [starttext, setstarttext] = useState("START");
   const [title, settitle] = useState("Quiz");
-  const [reset, setreset] = useState(false);
+  // const [reset, setreset] = useState(false);
 
 
   function selectinputs(){
@@ -21,7 +21,7 @@ function App() {
   function ResetBtn() {
     setstartbtn(false);
     setQuesJson(null);
-    setreset(false);
+    // setreset(false);
     setstarttext("START");
   };
 

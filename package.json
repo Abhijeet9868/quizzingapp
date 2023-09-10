@@ -1,7 +1,7 @@
 {
   
 
-  "homepage": "https://Axmdstar.github.io/Quiz_using_React",
+  "homepage": ".",
   "name": "quizreact",
   "version": "0.1.0",
   "private": true,
@@ -48,5 +48,5 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0"
-  }
+  },
 }

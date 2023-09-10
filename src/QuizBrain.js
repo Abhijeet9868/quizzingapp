@@ -96,7 +96,7 @@ const QuizBrain = ({ Ques,ResetBtn }) => {
                 });
             }
         }
-    }, [Currentindex]);
+    }, [Currentindex, Ques]);
 
     //! deBug 
     // console.log('Q_A.Question :', Q_A.Question);

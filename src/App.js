@@ -39,7 +39,6 @@ function App() {
       dblink += `&category=${catagory.value}`;
       dblink += `&difficulty=${diffculty.value}`;
 
-
       fetch(dblink)
         .then((result) => {
           settitle("Quiz")
@@ -71,7 +70,6 @@ function App() {
       }
       {!QuesJson &&  
       <div >
-
       <div className="OptionBox">
 
         <div className="category">
@@ -107,11 +105,10 @@ function App() {
           </div>
         </div>
 
+        
+
       </div>
-        <p style={{color:"white", lineHeight:"30px"}}>Introducing my latest project, a simple and fun quiz game! With just a click of a button, my project retrieves 10 random
-           questions from a trusted source and presents them to the user. The user can choose to skip questions and come back to them
-          later. After answering all the questions, the project displays the final result. It's a great way to test your knowledge
-            and have fun at the same time!</p>
+        <p style={{color:"white", lineHeight:"30px"}}>I am excited to unveil my newest endeavor, an engaging and straightforward quiz game! With a single button press, this game fetches 10 random questions from a reliable database for the player. The player has the option to bypass questions and return to them at a later time. Once all questions have been answered, the game reveals the final score. It's an excellent method to challenge your Knowledgewhile enjoyeing yourself</p>
       </div>
           }
     </div>
